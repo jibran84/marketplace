@@ -35,7 +35,7 @@ Rails.application.configure do
   address:              'smtp.mailgun.org',
   port:                 587,
   domain:               ENV['MAILGUN_DOMAIN'],
-  user_name:            'postmaster@' + ENV['MAILGUN_DOMAIN'],
+  # user_name:            'postmaster@' + ENV['MAILGUN_DOMAIN'],
   password:             ENV['MAILGUN_PASSWORD'],
   authentication:       'plain',
   enable_starttls_auto: false  }

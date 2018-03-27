@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+
+      <div class="col-md-2">
+        <%= image_tag product.image_url, class: 'img-fluid'%>
+      </div>
+
+      <div class="col-md-5">
+        <h5 class = "card-title"><%= link_to product.name, product%></h5>
+        <p><%= product.description%></p>
+      </div>
+
+      <div class="col-md-3">
+        <p class = "card-title">In Stock: <%= product.num_in_stock %></p>
+        <p>Price: <i class="fas fa-dollar-sign"></i></i><%= product.price %></p>
+      </div>
+
+    </div>
+  </div>
+</div>

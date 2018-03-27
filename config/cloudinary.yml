@@ -1,0 +1,18 @@
+development:
+  cloud_name: jibs
+  api_key: '338555781715158'
+  api_secret: zu4h_HqbwwpBsmDDg9BRnf_p22Y
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: jibs
+  api_key: '338555781715158'
+  api_secret: zu4h_HqbwwpBsmDDg9BRnf_p22Y
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: jibs
+  api_key: '338555781715158'
+  api_secret: zu4h_HqbwwpBsmDDg9BRnf_p22Y
+  enhance_image_tag: true
+  static_image_support: false
